@@ -1,0 +1,236 @@
+.content {
+    overflow-x: hidden;
+    padding: 0.5em !important;
+}
+
+.single-dropzone {
+    padding: 0 0;
+    max-width: 200px;
+    border: 1px dashed !important;
+}
+
+.modal-content {
+    border-radius: unset !important;
+}
+
+.form-control, .selectize-input {
+    border-radius: 0 !important;
+}
+
+.custom-card-body {
+    padding: 0.2px !important;
+}
+
+.table-stats table td {
+    text-transform: none;
+}
+
+.table-stats table th {
+    text-align: center;
+}
+
+.table-stats table td {
+    text-align: center;
+}
+
+.order-table tr td:last-child, .order-table tr th:last-child {
+    text-align: center;
+}
+
+.custom-label {
+    color: rgb(40, 98, 131);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px !important;
+}
+
+.custom-card {
+    border-radius: 0 !important;
+    padding-bottom: 10px;
+}
+
+.tri-status {
+    top: -2px;
+    position: relative;
+}
+
+/*to design switch buttons*/
+.switch input {
+    display: none;
+}
+
+.switch {
+    display: inline-block;
+    width: 50px;
+    height: 22px;
+    margin: 8px;
+    transform: translateY(60%);
+    position: relative;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+    box-shadow: 0 0 0 1px red, 0 0 4px red;
+    cursor: pointer;
+    border: 1px solid transparent;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #ff0000;
+    border-radius: 30px;
+    transform: translateX(-30px);
+    transition: .4s;
+}
+
+input:checked + .slider:before {
+    transform: translateX(30px);
+    background: limeGreen;
+}
+
+input:checked + .slider {
+    box-shadow: 0 0 0 1px limeGreen, 0 0 1px limeGreen;
+}
+
+
+/* Tabs*/
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#tabs {
+    padding: 0 20px;
+}
+
+#tabs h6.section-title {
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0033ff !important;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 1px solid !important;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 12px;
+}
+
+.scrollspy-example {
+    position: relative;
+    height: 500px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+
+.datepicker {
+    visibility: hidden;
+    display: none;
+}
+
+.inclusion-title {
+    color: rgb(65, 84, 102);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.label-dep {
+    color: rgb(65, 84, 102);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.depar-class {
+    overflow-y: auto;
+    height: 400px;
+}
+
+.dep-alert {
+    display: none;
+}
+
+.lpn-checkbox-input {
+    position: relative;
+    top: 2px;
+    left: 0;
+    /*display: block;*/
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    border-collapse: separate;
+    transition: all .3s;
+}
+
+.edit-dep, .add-dep {
+    position: relative;
+    left: -16px;
+}
+
+.custom-drop-down {
+    top: 100% !important;
+    left: -15px !important;
+}
+
+.add-extra-departures {
+    display: none;
+}
+
+.dataTables_scrollBody {
+    height: 400px;
+}
+
+.dep-table > tr:hover {
+    background-color: #B3D6E9;
+    cursor: pointer;
+}
+
+.custom-drop-item {
+    cursor: pointer;
+}
+.dep-delete{
+    margin-top: -10% !important;
+}
+.color-green{
+    color: green!important;
+}
+
+.color-blue {
+    color: blue !important;
+}
+.location-maps{
+    border: 1px solid grey;
+}
+
+.table-stats table th img, .table-stats table td img {
+    margin-right: 10px;
+    max-width: 150px;
+}
+
+.navbar .navbar-nav > li.active {
+    background: none !important;
+}
